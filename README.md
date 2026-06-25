@@ -3,9 +3,6 @@
 ## 🎥 Project Demo
 
 ![ESP32 Button Toggle LED](assets/ESP32-Button-Toggle-LED.png)
-## 🎥 Project Demo
-
-![ESP32 Button Toggle LED Demo](assets/ESP32-Button-Toggle-LED.gif)
 
 ## 📌 Description
 This project demonstrates how to toggle an LED using a push button with an ESP32 DevKit V1.
