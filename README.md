@@ -1,36 +1,85 @@
 # ESP32 Button Toggle LED 🔴💡
 
-## 🎥 Project Demo
+A simple embedded systems project using **ESP32 DevKit V1**.  
+This project demonstrates how to toggle an LED ON and OFF using a push button.
 
-![ESP32 Button Toggle LED](assets/ESP32-Button-Toggle-LED.png)
+---
 
-## 📌 Description
-This project demonstrates how to toggle an LED using a push button with an ESP32 DevKit V1.
-Each button press changes the LED state (ON → OFF → ON).
+## 📌 Project Overview
 
-## 🧰 Hardware Required
+- Press button once → LED ON
+- Press button again → LED OFF
+- Uses internal pull-up resistor
+- Clean and beginner-friendly code
+- PlatformIO ready
+
+---
+
+## 🧰 Hardware Components
+
 - ESP32 DevKit V1
-- Push Button
 - 5mm LED
+- Push Button (Red)
 - 220Ω Resistor
-- Breadboard & Jumper Wires
+- Breadboard
+- Jumper Wires
+
+---
 
 ## 🔌 Wiring
+
 | Component | ESP32 Pin |
-|--------|-----------|
+|---------|----------|
 | LED (+) | GPIO 2 |
 | LED (-) | GND |
-| Button | GPIO 4 → GND |
+| Button | GPIO 4 |
+| Button | GND |
 
-Internal pull-up resistor is used.
+---
 
-## 🛠️ Software
+## 📦 Project Structure
+
+```
+ESP32-Button-Toggle-LED/
+├── src/
+│   └── main.cpp
+├── assets/
+│   └── ESP32-Button-Toggle-LED.gif
+├── .gitignore
+├── platformio.ini
+└── README.md
+```
+---
+
+## 🛠️ Tools
+
 - PlatformIO
 - Arduino Framework
+- VS Code
 
-## ⚙️ PlatformIO Configuration
-```ini
-[env:esp32dev]
-platform = espressif32
-board = esp32dev
-framework = arduino
+---
+
+## 🎥 Project Demo
+
+<p align="center">
+  <img src="assets/ESP32-Button-Toggle-LED.png" width="720"/>
+</p>
+
+---
+
+## 👤 Author
+
+**Moamen Abouhaty**
+
+---
+
+## 🏷️ Version
+
+v1.0.0
+
+---
+
+## © License
+
+© 2026 Moamen Abouhaty  
+All rights reserved.
